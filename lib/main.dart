@@ -1,3 +1,4 @@
+import 'package:face_filters/ui/cam_masks_filters.dart';
 import 'package:face_filters/ui/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'AR Face Filters',
-      home: MySplash(),
+      home: CameraMasksFilters(),
     );
   }
 }
